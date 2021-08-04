@@ -1,0 +1,30 @@
+.accordion-wrapper {
+    max-width: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+}
+
+.single-accordion {
+    border: 1px solid #cecece;
+    margin-bottom: 25px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.head, .body {
+    padding: 10px;
+}
+
+.body {
+    border-top: 1px solid #cecece;
+}
+
+.head-icon {
+    cursor: pointer;
+}
